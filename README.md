@@ -16,6 +16,7 @@ graph TD;
     TeamB --> S7((Student 3));
     TeamB --> S8((Student 4));
 ```
+-------------------------------
 ```mermaid
 gantt
     title Modul Planung
@@ -28,4 +29,24 @@ gantt
     section Daten Project
     Synthetische Daten Auswertung      :2022-05-01  , 52d
     Video Presentation      : 24d
+```
+-----------------------------
+```mermaid
+classDiagram
+      Content Information o-- Data Object
+      Content Information o-- Representation Information
+      Data Object -->  Representation Information: Interpreted using
+      Data Object --> Physical Object
+      Data Object --> Digital Object
+      Representation Information o-- Structure Information
+      Representation Information o-- Semantic Information
+```
+----------------------------
+```mermaid
+classDiagram
+     PreservationDescriptionInformation o-- Reference Information
+      PreservationDescriptionInformation o-- Provenance Information
+      PreservationDescriptionInformation o-- Context information
+      PreservationDescriptionInformation o-- Fixity Information
+      PreservationDescriptionInformation o-- Access Right Information
 ```
