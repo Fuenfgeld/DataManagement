@@ -1,3 +1,5 @@
+## OAIS docu: https://public.ccsds.org/pubs/650x0m2.pdf
+
 ```mermaid
 classDiagram
       Content Information o-- Data Object
