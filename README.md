@@ -23,8 +23,8 @@ gantt
     %% this is a comment
     dateFormat  YYYY-MM-DD
     section Bootcamp
-    Data Engineering    :a1, 2022-03-20, 40d
-    Data Management     :a2, 2022-03-20 , 40d
+    Data Engineering    :a1, 2022-03-24, 40d
+    Data Management     :a2, 2022-03-24 , 40d
     Presentation        :after a1, 2d
     section Daten Project
     Synthetische Daten Auswertung      :2022-05-01  , 52d
